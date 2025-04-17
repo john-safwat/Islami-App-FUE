@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami_app_fue/core/routs/app_routs.dart';
 import 'package:islami_app_fue/core/theme/app_colors.dart';
 
 class BottomActionBar extends StatefulWidget {
@@ -42,6 +43,7 @@ class _BottomActionBarState extends State<BottomActionBar> {
             TextButton(
               onPressed: () {
                 if(widget.pageController.page?.toInt() == 4){
+                  Navigator.pushReplacementNamed(context, AppRouts.login);
                   return;
                 }
                 widget.pageController.animateToPage(

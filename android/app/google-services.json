@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205642343302",
+    "project_id": "islami-app-fue",
+    "storage_bucket": "islami-app-fue.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205642343302:android:13349990587980536a8207",
+        "android_client_info": {
+          "package_name": "edu.fue.islami_app_fue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBfMoEKUtX8GcCyC_jlB2nnqlotJQEHNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
